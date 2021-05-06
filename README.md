@@ -29,6 +29,7 @@ choco install <packetname>
 ## Die folgenden Anwendungen wurden paketiert:
 * [Amazon Games](https://chocolatey.org/packages/amazongames/)
 * [AnyStream](https://chocolatey.org/packages/anystream/)
+* [Chia Network](https://chocolatey.org/packages/chia-network/)
 * [Cloudberry Backup for Desktop](https://chocolatey.org/packages/cloudberrybackup/)
 * [Cloudberry Drive](https://chocolatey.org/packages/cloudberrydrive/)
 * [DroidCam Client](https://chocolatey.org/packages/droidcamclient/)
