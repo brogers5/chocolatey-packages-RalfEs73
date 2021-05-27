@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://files.movavi.com/x32/MovaviVideoConverterSetupE.exe'
-$url64      = 'https://cdn.movavi.com/x64/MovaviVideoConverterSetupE.exe'
+$url64      = 'https://files.movavi.com/x64/MovaviVideoConverterSetupE.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
