@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hasleobackupsuite</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/</packageSourceUrl>
+    <owners>RalfEs</owners>
+
+    <title>Hasleo Backup Suite (Install)</title>
+    <authors>Hasleo Software</authors>
+    <projectUrl>https://www.easyuefi.com/backup-software/backup-suite-free.html</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/test.png</iconUrl>
+    <licenseUrl>https://www.easyuefi.com/terms-conditions.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.easyuefi.com/backup-software/backup-suite-free.html#userguide</docsUrl>
+    <bugTrackerUrl>https://www.easyuefi.com/forums/forumdisplay.php?fid=10</bugTrackerUrl>
+    <tags>hasleobackupsuite backup restore windowspe hasleo</tags>
+    <summary>Free Windows Backup Software</summary>
+    <description>Hasleo Backup Suite Free is a free Windows backup and restore software, which embeds backup, restore and cloning features, it is designed for Windows operating system users and can be used on both Windows PCs and Servers.
+
+		The backup and restore feature of Hasleo Backup Suite can help you back up and restore the Windows operating systems, disks and partitions to protect the security of your Windows operating system and personal data. The cloning feature of Hasleo Backup Suite can help you migrate Windows to another disk, or easily upgrade a disk to SSD or a larger capacity disk.
+
+		If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).
+	</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
