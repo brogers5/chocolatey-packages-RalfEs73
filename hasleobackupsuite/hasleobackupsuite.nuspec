@@ -3,13 +3,13 @@
   <metadata>
     <id>hasleobackupsuite</id>
     <version>1.0</version>
-    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/hasleobackupsuite</packageSourceUrl>
     <owners>RalfEs</owners>
 
     <title>Hasleo Backup Suite (Install)</title>
     <authors>Hasleo Software</authors>
     <projectUrl>https://www.easyuefi.com/backup-software/backup-suite-free.html</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/test.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/db24143f9fb2888a284fdd429837e10354caba02/hasleobackupsuite/icon/Icon.png</iconUrl>
     <licenseUrl>https://www.easyuefi.com/terms-conditions.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.easyuefi.com/backup-software/backup-suite-free.html#userguide</docsUrl>
