@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hasleobackupsuite</id>
-    <version>1.0</version>
+    <version>1.5</version>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/hasleobackupsuite</packageSourceUrl>
     <owners>RalfEs</owners>
 
@@ -12,7 +12,7 @@
     <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/db24143f9fb2888a284fdd429837e10354caba02/hasleobackupsuite/icon/Icon.png</iconUrl>
     <licenseUrl>https://www.easyuefi.com/terms-conditions.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <docsUrl>https://www.easyuefi.com/backup-software/backup-suite-free.html#userguide</docsUrl>
+    <docsUrl>https://www.easyuefi.com/backup-software/tutorial/backup-suite-user-guide.html</docsUrl>
     <bugTrackerUrl>https://www.easyuefi.com/forums/forumdisplay.php?fid=10</bugTrackerUrl>
     <tags>hasleobackupsuite backup restore windowspe hasleo</tags>
     <summary>Free Windows Backup Software</summary>
