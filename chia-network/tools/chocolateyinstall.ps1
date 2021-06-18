@@ -19,10 +19,10 @@ $packageArgs = @{
 
 $CheckProcess = Get-Process | Where-Object {$_.ProcessName -eq $process}
 If($CheckProcess -eq $null){
-	Write-Host "Prozess wird aktuell nicht ausgeführt"
+	Write-Host "Process is not currently running"
 	} 
 	else {
-	Write-Host "Prozess wird aktuell ausgeführt"
+	Write-Host "Process currently running"
     Stop-Process -Name $process
 	}
 
