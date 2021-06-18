@@ -19,10 +19,10 @@ $packageArgs = @{
 
 $CheckProcess = Get-Process | Where-Object {$_.ProcessName -eq $process}
 If($CheckProcess -eq $null){
-	Write-Host "Process is not currently running"
+	Write-Host "Process is not currently running."
 	} 
 	else {
-	Write-Host "Process currently running"
+	Write-Host "Process is currently running. Killing chia process."
     Stop-Process -Name $process
 	}
 
