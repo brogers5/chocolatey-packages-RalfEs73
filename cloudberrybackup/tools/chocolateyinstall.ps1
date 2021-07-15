@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.msp360.com/CloudBerryBackup_v7.1.2.237DESKTOP.exe'
+$url        = 'https://download.msp360.com/CloudBerryBackup_v7.1.3.28DESKTOP.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   
   softwareName  = 'cloudberrybackup*'
 
-  checksum      = '5D9EFF3BB5F2ABE75D8A1B754DBD0B69A5553EAC1C132F83E3DC2C40073AB91E'
+  checksum      = 'F58E8A3CDDEE0F94E72131AA7775788B8A64998C9D9F5C9236A08BB118B9BB3D'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
