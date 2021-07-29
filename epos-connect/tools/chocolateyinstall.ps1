@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.eposaudio.com/contentassets/0539b19ad7304ef7bc60474793ee559a/installer-epos-connect_4.5.0.1295.exe'
+$url        = 'https://www.eposaudio.com/contentassets/0539b19ad7304ef7bc60474793ee559a/epos_connect_win_4.6.0.1483.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
