@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   softwareName  = 'epos-connect*'
-  checksum      = '7B7E02C2CE006E103414CD48FCF2BB986C71AFE83FF2DE324B88358AA360F4B2'
+  checksum      = '9B5A5F3F6F5344935CEF76F6C50F7F7AF1F25A72A5BD132C6EE8EC133463DAE4'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
