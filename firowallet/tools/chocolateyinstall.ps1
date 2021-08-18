@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/firoorg/firo/releases/download/v0.14.7.1/firo-0.14.7.1-win64-setup.exe'
+$url64      = 'https://github.com/firoorg/firo/releases/download/v0.14.8.0/firo-0.14.8.0-win64-setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'firowallet*'
-  checksum64    = '641E01DE01FF66E8B5B1518A81B9EF66B94BE8577F7F0735CEC4F50677A019AB'
+  checksum64    = '619714F131407C4148822A2D718774FC1B048131F41209C59F167BD3DD592FAD'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
