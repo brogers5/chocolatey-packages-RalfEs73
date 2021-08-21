@@ -8,7 +8,7 @@
     <title>DeFi Wallet (Install)</title>
     <authors>Defichain Foundation Limited</authors>
     <projectUrl>https://defichain.com/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/13d33bca158bab039132d772a4a70b4467059e7c/firowallet/icon/Icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/cf3831d0176cd13e8b8041e6b2fbdf8e24008be4/defiwallet/icon/Icon.png</iconUrl>
 	<licenseUrl>https://firo.org/privacy-policy/</licenseUrl>
     <bugTrackerUrl>https://github.com/DeFiCh/app/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/DeFiCh/app/</projectSourceUrl>
