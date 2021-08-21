@@ -18,8 +18,8 @@ Get-ChocolateyWebFile -Checksum $checksum_file -ChecksumType $checksumType_file 
 
 Get-ChocolateyUnzip @packageArgs
 
-New-Item -Path "$toolsDestination" -ItemType directory -Force | Out-Null
-Copy-Item "$toolsPath\.scc\*" "$toolsDestination" -recurse
+New-Item -Path "$toolsDestination" -ItemType directory -Force
+Copy-Item "$toolsPath\.scc\*" "$toolsDestination" -Recurse -Force
 Remove-Item "$toolsPath\.scc" -Recurse
 
 
