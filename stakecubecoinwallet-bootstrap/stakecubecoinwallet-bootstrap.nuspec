@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>stakecubecoinwallet-bootstrap</id>
-    <version>3.1.0.1</version>
+    <version>3.1.0.20210317</version>
 	<packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/stakecubecoinwallet-bootstrap</packageSourceUrl>
     <owners>RalfEs</owners>
     <title>StakeCube Coin Wallet Bootstrap (Install)</title>
@@ -20,7 +20,7 @@
 	If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).
 	</description>
 	<dependencies>
-		<dependency id="stakecubecoinwallet" />
+
 	</dependencies>
   </metadata>
 </package>
