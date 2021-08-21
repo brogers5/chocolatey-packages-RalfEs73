@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>defiwallet-bootstrap</id>
+    <version>2.6.2</version>
+	<packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/defiwallet-bootstrap</packageSourceUrl>
+    <owners>RalfEs</owners>
+    <title>DeFi Wallet (Install)</title>
+    <authors>Defichain Foundation Limited</authors>
+    <projectUrl>https://defichain.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/cf3831d0176cd13e8b8041e6b2fbdf8e24008be4/defiwallet/icon/Icon.png</iconUrl>
+	<licenseUrl>https://defichain.com/privacy-policy/</licenseUrl>
+    <bugTrackerUrl>https://github.com/DeFiCh/app/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/DeFiCh/app/</projectSourceUrl>
+    <tags>defichainwallet defiwallet wallet cryptocurrency</tags>
+    <summary>DeFi Bootstrap</summary>
+	<description>DeFi is a cryptocurrency.
+	This packet contains the current blockchain dump.
+	The prerequisite for this package is the DeFi Wallet and will be installed..
+	If you have already synced the blockchain on your PC, install the defiwallet packet.
+	If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).
+	</description>
+	<dependencies>
+	</dependencies>
+  </metadata>
+</package>
