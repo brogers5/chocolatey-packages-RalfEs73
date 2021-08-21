@@ -3,7 +3,7 @@
   <metadata>
     <id>defiwallet</id>
     <version>2.6.2</version>
-	<packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/defichainwallet</packageSourceUrl>
+	<packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/defiwallet</packageSourceUrl>
     <owners>RalfEs</owners>
     <title>DeFi Wallet (Install)</title>
     <authors>Defichain Foundation Limited</authors>
