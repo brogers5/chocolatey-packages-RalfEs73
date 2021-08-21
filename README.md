@@ -32,6 +32,7 @@ choco install <packetname>
 * [Chia Network](https://chocolatey.org/packages/chia-network/)
 * [Cloudberry Backup for Desktop](https://chocolatey.org/packages/cloudberrybackup/)
 * [Cloudberry Drive](https://chocolatey.org/packages/cloudberrydrive/)
+* [DeFi Wallet](https://chocolatey.org/packages/defiwallet/)
 * [DroidCam Client](https://chocolatey.org/packages/droidcamclient/)
 * [Encrypto](https://chocolatey.org/packages/encrypto/)
 * [EPOS Connect](https://community.chocolatey.org/packages/epos-connect/)
