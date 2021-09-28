@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'powerautomatedesktop*'
 
-  checksum      = 'A2C7643044210F9F95683F6C135FA6C6E835C22C15DD2F1528DE36B9DA814C0D'
+  checksum      = 'C9CD21086DB79D63AABFE0FA8CEC4BD58F662ACBD11C7863D0AD3DCC4F549B16'
   checksumType  = 'sha256'
 
   silentArgs   = '/S -accepteula'
