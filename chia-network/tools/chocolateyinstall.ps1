@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/Chia-Network/chia-blockchain/releases/download/1.2.7/ChiaSetup-1.2.7.exe'
+$url        = 'https://github.com/Chia-Network/chia-blockchain/releases/download/1.2.8/ChiaSetup-1.2.8.exe'
 $process	= "Chia"
 
 $packageArgs = @{
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'chia-network*'
 
-  checksum      = '789C9391CD9CFFEEC63659FE5954C529A7CD9392FDBFE4CBECB07A3994AA23E3'
+  checksum      = '70940EFDC2D5C011A1B4D76350DB18C2AB36AC7DE66DB2C1356637CDC6A58681'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
