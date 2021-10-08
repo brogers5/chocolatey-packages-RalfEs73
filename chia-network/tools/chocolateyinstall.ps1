@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'chia-network*'
 
-  checksum      = '70940EFDC2D5C011A1B4D76350DB18C2AB36AC7DE66DB2C1356637CDC6A58681'
+  checksum      = 'C5DAE10D06B8775F7A6E1D08708107761FDF7652C2A461981C5D526673158F24'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
