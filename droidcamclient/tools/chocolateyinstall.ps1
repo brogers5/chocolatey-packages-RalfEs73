@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://files.dev47apps.net/win/DroidCam.Setup.6.5.1.exe'
+$url        = 'https://files.dev47apps.net/win/DroidCam.Setup.6.5.2.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
