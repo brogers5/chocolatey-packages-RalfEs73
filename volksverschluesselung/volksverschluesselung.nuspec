@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>volksverschluesselung</id>
+    <version>1.18.3</version>
+    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/volksverschluesselung/</packageSourceUrl>
+    <owners>RalfEs</owners>
+
+    <title>Volksverschlüsselung (Install)</title>
+    <authors>Fraunhofer Institut</authors>
+    <projectUrl>https://volksverschluesselung.de/</projectUrl>
+    <licenseUrl>https://volksverschluesselung.de/doc/VV-Private-EULA.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://dl1.volksverschluesselung.de/VV-Private-Client-Quelltext.zip</projectSourceUrl>
+    <docsUrl>https://volksverschluesselung.de/dokumente.php</docsUrl>
+    <tags>volksverschluesselung volksverschlüsselung de-mail smime email mail fraunhofer sit end-to-end</tags>
+    <summary>Fraunhofer SIT Volksverschlüsselung Client</summary>
+    <description>Offene Initiative für Ende-zu-Ende-Sicherheit
+		If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).	
+	</description>
+    <releaseNotes>https://volksverschluesselung.de/doc/VV-Aenderungen.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
