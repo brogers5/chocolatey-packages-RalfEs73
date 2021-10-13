@@ -5,10 +5,10 @@
     <version>1.18.3</version>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/volksverschluesselung/</packageSourceUrl>
     <owners>RalfEs</owners>
-
     <title>Volksverschlüsselung (Install)</title>
     <authors>Fraunhofer Institut</authors>
     <projectUrl>https://volksverschluesselung.de/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/ee47f94e2c586923c980619e88a344cec0314fc7/volksverschluesselung/icon/Icon.png</iconUrl>
     <licenseUrl>https://volksverschluesselung.de/doc/VV-Private-EULA.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://dl1.volksverschluesselung.de/VV-Private-Client-Quelltext.zip</projectSourceUrl>
