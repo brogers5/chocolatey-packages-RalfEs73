@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v2.34.2/ledger-live-desktop-2.34.2-win.exe'
+$url64      = 'https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v2.34.3/ledger-live-desktop-2.34.3-win.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'ledger-live*'
-  checksum64    = 'AD48FE94C161FC2ECE913D4D325B0628A3A72398ED55B4CAF135435408EA1581'
+  checksum64    = '4D79D0646512FB89A9A248044EF461D7926227D373D9ABA34BC1E08A5F805504'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
