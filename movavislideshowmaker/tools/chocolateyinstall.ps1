@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   softwareName  = 'movavislideshowmaker*'
-  checksum      = '9257574C82062730A905F95B23D785A3C41E2FB45DBBDEB8BCD043D4A9B48915'
+  checksum      = 'FFE4DFBBF5C68E0EC66B03E485D4F4577B298C0AEA464EEDB0B89CDEA1BFB725'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
