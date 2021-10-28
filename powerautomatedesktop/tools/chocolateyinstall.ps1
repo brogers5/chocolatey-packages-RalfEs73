@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomateDesktop.exe'
+$url        = 'https://download.microsoft.com/download/b/d/8/bd8409df-7b80-4ef7-89c5-5a7a941a5093/Setup.Microsoft.PowerAutomate.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'powerautomatedesktop*'
 
-  checksum      = 'C9CD21086DB79D63AABFE0FA8CEC4BD58F662ACBD11C7863D0AD3DCC4F549B16'
+  checksum      = '55E8B657E77C0A1FADBB6E10F373CEBF8B5574484CE7B98FB1E52E66D7B94694'
   checksumType  = 'sha256'
 
   silentArgs   = '/S -accepteula'
