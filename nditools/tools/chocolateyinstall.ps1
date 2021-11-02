@@ -1,6 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://downloads.ndi.tv/Tools/NDI%205%20Tools.exe'
+$process	= "NDI Launcher"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -17,3 +18,12 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+
+$CheckProcess = Get-Process | Where-Object {$_.ProcessName -eq $process}
+If($CheckProcess -eq $null){
+	Write-Host "Process is not currently running."
+	} 
+	else {
+	Write-Host "Process is currently running. Killing $process process."
+    Stop-Process -Name $process
+	}
