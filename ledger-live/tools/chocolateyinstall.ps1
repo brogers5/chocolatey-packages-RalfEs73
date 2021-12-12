@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'ledger-live*'
-  checksum64    = '65F7C66A4447E1AC1D31A794ADE8F7A917FF12F346D2FDB5FD4355960ED100A7'
+  checksum64    = '57C77411C141347587FA235F627BD577C30AD986742C3416BAD37B09BCA94B1C'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
