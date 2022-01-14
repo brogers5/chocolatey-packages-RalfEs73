@@ -46,7 +46,6 @@ choco install <packetname>
 * [Movavi Slideshow Video Maker](https://chocolatey.org/packages/movavislideshowmaker/)
 * [Movavi Video Converter](https://chocolatey.org/packages/movavivideoconverter/)
 * [Movavi Video Editor Plus](https://chocolatey.org/packages/movavivideoeditorplus/)
-* [NDI Tools](https://chocolatey.org/packages/nditools/)
 * [Planet M.U.L.E.](https://chocolatey.org/packages/planetmule/)
 * [Power Automate Desktop](https://chocolatey.org/packages/powerautomatedesktop/)
 * [StakeCube Coin Wallet](https://chocolatey.org/packages/stakecubecoinwallet/)
