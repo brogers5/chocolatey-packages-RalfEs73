@@ -27,7 +27,6 @@ choco install <packetname>
 
 
 ## Die folgenden Anwendungen wurden paketiert:
-* [Amazon Games](https://chocolatey.org/packages/amazongames/)
 * [AnyStream](https://chocolatey.org/packages/anystream/)
 * [Chia Network](https://chocolatey.org/packages/chia-network/)
 * [Cloudberry Backup for Desktop](https://chocolatey.org/packages/cloudberrybackup/)
@@ -42,10 +41,6 @@ choco install <packetname>
 * [Gamecaster](https://chocolatey.org/packages/gamecaster/)
 * [Hasleo Backup Suite](https://chocolatey.org/packages/hasleobackupsuite/)
 * [Ledger Live](https://chocolatey.org/packages/ledger-live/)
-* [Movavi Screen Recorder](https://chocolatey.org/packages/movaviscreenrecorder/)
-* [Movavi Slideshow Video Maker](https://chocolatey.org/packages/movavislideshowmaker/)
-* [Movavi Video Converter](https://chocolatey.org/packages/movavivideoconverter/)
-* [Movavi Video Editor Plus](https://chocolatey.org/packages/movavivideoeditorplus/)
 * [Planet M.U.L.E.](https://chocolatey.org/packages/planetmule/)
 * [Power Automate Desktop](https://chocolatey.org/packages/powerautomatedesktop/)
 * [StakeCube Coin Wallet](https://chocolatey.org/packages/stakecubecoinwallet/)
