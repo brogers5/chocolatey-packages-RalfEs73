@@ -4,9 +4,6 @@ $packageName		= 'stakecubecoinwallet-bootstrap'
 $toolsPath			= Split-Path $MyInvocation.MyCommand.Definition
 $toolsDir			= "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $toolsDestination	= Join-Path $env:appdata "StakeCubeCoin"
-$checksum_file	    = 'FD95A6C4A2B533A5F3B3E8A6D0E9BEC29A452470ADF811A4FAF811E8490D3CAE'
-$checksumType_file	= 'sha256'
-
 
 $packageArgs = @{
     PackageName		= $packageName
