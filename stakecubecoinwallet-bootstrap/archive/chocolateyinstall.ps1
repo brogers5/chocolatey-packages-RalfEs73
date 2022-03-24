@@ -14,7 +14,7 @@ $packageArgs = @{
     Destination		= $toolsDir
 }
 
-Get-ChocolateyWebFile -PackageName 'stakecubecoinwallet-bootstrap' -FileFullPath "$toolsPath\bootstrap.zip" -Url 'https://stakecubecoin.net/bootstrap.zip'
+Get-ChocolateyWebFile -Checksum $checksum_file -ChecksumType $checksumType_file -PackageName 'stakecubecoinwallet-bootstrap' -FileFullPath "$toolsPath\bootstrap.zip" -Url 'https://stakecubecoin.net/bootstrap.zip'
 
 Get-ChocolateyUnzip @packageArgs
 
