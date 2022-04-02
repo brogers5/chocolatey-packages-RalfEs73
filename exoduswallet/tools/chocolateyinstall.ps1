@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://downloads.exodus.com/releases/exodus-windows-x64-22.3.25.exe'
+$url64      = 'https://downloads.exodus.com/releases/exodus-windows-x64-22.3.31.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'exoduswallet*'
-  checksum64    = 'B2F68AEA016B2F6E3C78447B14209EDABFD6FFA8444A31F3012AA2DF725362FF'
+  checksum64    = 'CE9725BCCA23BCF190F1881171DC533E3078285ACFB57B871531E74A42B60574'
   checksumType64= 'sha256'
   silentArgs   = '/s /v"/qn"'
 }
