@@ -4,6 +4,8 @@ $packageName		= 'stakecubecoinwallet-bootstrap'
 $toolsPath			= Split-Path $MyInvocation.MyCommand.Definition
 $toolsDir			= "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $toolsDestination	= Join-Path $env:appdata "StakeCubeCoin"
+$checksum_file	    = 'E3FEB4C697309CCFAF45F11F27D5449058C2D03E2E70703883078B9391A4C4D1'
+$checksumType_file	= 'sha256'
 
 $packageArgs = @{
     PackageName		= $packageName
@@ -11,7 +13,7 @@ $packageArgs = @{
     Destination		= $toolsDir
 }
 
-Get-ChocolateyWebFile -PackageName 'stakecubecoinwallet-bootstrap' -FileFullPath "$toolsPath\bootstrap.zip" -Url 'https://stakecubecoin.net/bootstrap.zip'
+Get-ChocolateyWebFile -Checksum $checksum_file -ChecksumType $checksumType_file -PackageName 'stakecubecoinwallet-bootstrap' -FileFullPath "$toolsPath\bootstrap.zip" -Url 'https://stakecubecoin.net/bootstrap.zip'
 
 Get-ChocolateyUnzip @packageArgs
 
