@@ -1,8 +1,5 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ralfes&url=https://github.com/ralfes/chocolatey-packages&title=chocolatey-packages&language=&tags=github&category=software) 
-
-
 # Chocolatey Softwarepakete
 ## Mein Chocolatey Profile
 [RalfEs](https://community.chocolatey.org/profiles/RalfEs/)
