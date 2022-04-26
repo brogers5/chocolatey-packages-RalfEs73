@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/DeFiCh/app/releases/download/v2.11.0/DeFi-Wallet-Setup-2.11.0.exe'
+$url64      = 'https://github.com/DeFiCh/app/releases/download/v2.12.0/DeFi-Wallet-Setup-2.12.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'defiwallet*'
-  checksum64    = 'D112848A3364C7FC7130F214EB1F1E7AF57D7A02710EA10A91FF749FD2563D31'
+  checksum64    = 'D576B54727A44989BFAD4DB83FF935F33AE68E122805F83547F5765667731B4B'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
