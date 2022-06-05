@@ -9,10 +9,12 @@
     <authors>Sordum</authors>
     <projectUrl>https://www.sordum.org/10997/backup-start-menu-layout-v1-5/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/9134bfa16a72e294ea3e8b1d07bc19767a6fca7e/planetmule/icon/Icon.jpg</iconUrl>
-    <docsUrl>https://www.sordum.org/10997/backup-start-menu-layout-v1-5//</docsUrl>
+    <docsUrl>https://www.sordum.org/10997/backup-start-menu-layout-v1-5/</docsUrl>
     <tags>backup startmenu windows</tags>
-    <summary>xxxx</summary>
-    <description>xxx.</description>
+    <summary>Backup Start Menu Layout will backup your Startmenu</summary>
+    <description>The Windows 11 And Windows 10 Start Menus lets you pin apps so that they are easier to access. You can group them together and manage the size of the tiles as well as the width of the Start Menu. Whether you love tiles or not, you can find ways to customize and work them so it’s easier to access your favorite apps. You can resize your tiles, pin and unpin them on the Start menu or Start screen. After devoting so much time arranging tiles on the Start menu, it would be annoying if something were to happen to it , a registry corruption , a new application installation or a bad update can rearrange or delete the tiles on the Start menu. To avoid such a situation you can Back Up And Restore The Start Menu Layout In Windows 10. This can be also handy if you do not want to have to setup your Start menu layout from scratch again. Say after a clean install of Windows.
+			If this package isn't up-to-date for some days, please [create an issue](https://github.com/RalfEs73/chocolatey-packages/issues/new/choose).
+	</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
