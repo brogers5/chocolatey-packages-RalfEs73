@@ -13,7 +13,7 @@ $packageArgs = @{
     Destination    = $toolsDir
 }
 
-Get-ChocolateyWebFile -PackageName 'backupstartmenulayout' -Checksum $Checksum -FileFullPath "$toolsPath\BackupSML.zip" -Url 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip'
+Get-ChocolateyWebFile -PackageName 'backupstartmenulayout' -Checksum "$Checksum" -Checksum64 "$Checksum" -FileFullPath "$toolsPath\BackupSML.zip" -Url 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip'
 Get-ChocolateyUnzip @packageArgs
 
 Install-ChocolateyShortcut -shortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$Shortcut" -targetPath "$toolsDir\BackupSML\$ProgramEXE"    
