@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$packageName = 'backupstartmenulayout' 
+$packageName = 'backup-start-menu-layout' 
 $Shortcut    = 'Backup Start Menu Layout.lnk'
 
 Remove-Item -Path "$env:Public\Desktop\$Shortcut"
