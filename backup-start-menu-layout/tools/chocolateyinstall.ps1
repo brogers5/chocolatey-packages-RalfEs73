@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$packageName = 'backupstartmenulayout'
+$packageName = 'backup-start-menu-layout'
 
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 $toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -14,7 +14,7 @@ $packageArgs = @{
     Destination    = $toolsDir
 }
 
-Get-ChocolateyWebFile -PackageName 'backupstartmenulayout' -ChecksumType "$ChecksumType" -Checksum "$Checksum" -FileFullPath "$toolsPath\BackupSML.zip" -Url 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip'
+Get-ChocolateyWebFile -PackageName 'backup-start-menu-layout' -ChecksumType "$ChecksumType" -Checksum "$Checksum" -FileFullPath "$toolsPath\BackupSML.zip" -Url 'https://www.sordum.org/files/download/backup-start-menu-layout/BackupSML.zip'
 Get-ChocolateyUnzip @packageArgs
 
 Install-ChocolateyShortcut -shortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$Shortcut" -targetPath "$toolsDir\BackupSML\$ProgramEXE"    
