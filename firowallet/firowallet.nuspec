@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>firowallet</id>
-    <version>0.14.10.0</version>
+    <version>0.14.10.1</version>
 	<packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/firowallet</packageSourceUrl>
     <owners>RalfEs</owners>
     <title>Firo Coin Wallet (Install)</title>
