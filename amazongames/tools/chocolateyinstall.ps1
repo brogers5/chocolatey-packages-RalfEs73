@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'amazongames*'
 
-  checksum      = 'E663BB9116EF2CB557657504623C0DE7C597A3B89A061DA43AE8148655664226'
+  checksum      = '9DBB71CB9C4BCAD710768DB6493317CCF31702A6023AED8700209667F0FAE547'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
