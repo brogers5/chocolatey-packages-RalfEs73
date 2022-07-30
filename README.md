@@ -24,6 +24,7 @@ choco install <packetname>
 
 
 ## Die folgenden Anwendungen wurden paketiert:
+* [Amazon Games] (https://community.chocolatey.org/packages/amazongames/)
 * [AnyStream](https://chocolatey.org/packages/anystream/)
 * [Backup Start Menu Layout](https://chocolatey.org/packages/backup-start-menu-layout/)
 * [Chia Network](https://chocolatey.org/packages/chia-network/)
