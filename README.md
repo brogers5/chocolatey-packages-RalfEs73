@@ -47,7 +47,6 @@ choco install <packetname>
 * [Thumbico](https://chocolatey.org/packages/thumbico/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/thumbico?label=Version)
 * [Ravensburger tiptoi Manager](https://chocolatey.org/packages/tiptoimanager/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/tiptoimanager?label=Version)
 * [Touch Portal](https://chocolatey.org/packages/touchportal/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/touchportal?label=Version)
-* [Volksverschlüsselung](https://chocolatey.org/packages/volksverschluesselung/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/volksverschluesselung?label=Version)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ralfes
