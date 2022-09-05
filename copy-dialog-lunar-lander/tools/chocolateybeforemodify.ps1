@@ -1,4 +1,4 @@
-﻿$CheckProcess = Get-Process | Where-Object {$_.ProcessName -eq "CopyDialogLunarLander"}
+﻿$CheckProcess = Get-Process | Where-Object {$_.ProcessName -eq "Chia"}
 If($CheckProcess -eq $null){
 	Write-Host "Process is not currently running."
 	} 
