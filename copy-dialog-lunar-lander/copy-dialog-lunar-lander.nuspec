@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>planetmule</id>
+    <version>1.3.6</version>
+    <owners>RalfEs</owners>
+    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/planetmule</packageSourceUrl>
+    <title>Planet M.U.L.E. (Install)</title>
+    <authors>Turborilla</authors>
+    <projectUrl>http://www.planetmule.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/9134bfa16a72e294ea3e8b1d07bc19767a6fca7e/planetmule/icon/Icon.jpg</iconUrl>
+    <docsUrl>http://www.planetmule.com/how-to-play/</docsUrl>
+    <tags>planetmule mule game c64</tags>
+    <summary>Planet M.U.L.E. is an online multiplayer strategy game by Swedish studio Turborilla. It is a remake of the 1983 classic M.U.L.E.</summary>
+    <description>The gameplay of Planet M.U.L.E. closely follows that of the original M.U.L.E.. Improvements over the original include improved, animated graphics and network play over the Internet. However, in the original game, the different characters had different advantages during gameplay (for example, Packers were better at producing food), whereas in Planet M.U.L.E. there are no advantages to choosing one character type versus another.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
