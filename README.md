@@ -30,6 +30,7 @@ choco install <packetname>
 * [Chia Network](https://chocolatey.org/packages/chia-network/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/chia-network?label=Version)
 * [Cloudberry Backup for Desktop](https://chocolatey.org/packages/cloudberrybackup/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/cloudberrybackup?label=Version)
 * [Cloudberry Drive](https://chocolatey.org/packages/cloudberrydrive/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/cloudberrydrive?label=Version)
+* [Copy Dialog Lunar Lander](https://chocolatey.org/packages/copy-dialog-lunar-lander/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/copy-dialog-lunar-lander?label=Version)
 * [DeFi Wallet](https://chocolatey.org/packages/defiwallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/defiwallet?label=Version)
 * [DroidCam Client](https://chocolatey.org/packages/droidcamclient/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/droidcamclient?label=Version)
 * [Encrypto](https://chocolatey.org/packages/encrypto/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/encrypto?label=Version)
