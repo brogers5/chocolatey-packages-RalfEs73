@@ -4,5 +4,5 @@ If($CheckProcess -eq $null){
 	} 
 	else {
 	Write-Host "Process is currently running. Killing chia process."
-    Stop-Process -Name Chia
+    Stop-Process -Name CopyDialogLunarLander
 	}
