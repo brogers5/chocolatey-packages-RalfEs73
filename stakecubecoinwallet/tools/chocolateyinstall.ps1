@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/stakecube/StakeCubeCoin/releases/download/v3.2.0/scc-3.2.0-win64-setup.exe'
+$url64      = 'https://github.com/stakecube/StakeCubeCoin/releases/download/v3.3.0/scc-3.3.0-win64-setup-unsigned.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'stakecubecoinwallet*'
-  checksum64    = '1C803B3BF513364C5E1BB3CF11F01403877BE1FB49D92F5D3A69B6EC8D52E295'
+  checksum64    = 'E65CC3BD81A7E496078A96B6BDDAD9E0BAB9D9B9E0BA0AB878E18129AC522903'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
