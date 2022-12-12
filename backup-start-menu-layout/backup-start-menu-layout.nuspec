@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>backup-start-menu-layout</id>
-    <version>1.5</version>
+    <version>1.6</version>
     <owners>RalfEs</owners>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/backup-start-menu-layout</packageSourceUrl>
     <title>Backup Start Menu Layout (Install)</title>

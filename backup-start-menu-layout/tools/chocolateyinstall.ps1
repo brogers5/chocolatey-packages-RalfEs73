@@ -6,7 +6,7 @@ $toolsDir      = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $Shortcut      = 'Backup Start Menu Layout.lnk'
 $ProgramEXE    = 'BackupSML_x64.exe'
 $ChecksumType  = 'sha256'
-$Checksum      = '6455092ABCABBA7E46BC933C1909ADBFAEDD57096D0ED0D6ED38439DAF396C81'
+$Checksum      = 'AC79D94460B189784B3ACDD30BCCC1FBC3CF49CE0942426FCB263F5E5957C6A4'
 
 $packageArgs = @{
     PackageName    = $packageName
