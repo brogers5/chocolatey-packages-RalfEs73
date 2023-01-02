@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>amazongames</id>
-    <version>2.2.8063.2</version>
+    <version>2.3.8425.2</version>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/amazongames</packageSourceUrl>
     <owners>RalfEs</owners>
     <title>Amazon Games (Install)</title>
