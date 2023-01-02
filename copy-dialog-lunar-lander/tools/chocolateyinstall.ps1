@@ -14,7 +14,7 @@ $packageArgs = @{
     Destination    = $toolsDir
 }
 
-Get-ChocolateyWebFile -Checksum $checksum_file -ChecksumType $checksumType_file -PackageName 'copy-dialog-lunar-lander' -FileFullPath "$toolsPath\copy-dialog-lunar-lander-v1.0.zip" -Url 'https://github.com/Sanakan8472/copy-dialog-lunar-lander/releases/download/v1.1/copy-dialog-lunar-lander-v1.1.zip'
+Get-ChocolateyWebFile -Checksum $checksum_file -ChecksumType $checksumType_file -PackageName 'copy-dialog-lunar-lander' -FileFullPath "$toolsPath\copy-dialog-lunar-lander-v1.1.zip" -Url 'https://github.com/Sanakan8472/copy-dialog-lunar-lander/releases/download/v1.1/copy-dialog-lunar-lander-v1.1.zip'
 Get-ChocolateyUnzip @packageArgs
 
 Install-ChocolateyShortcut -shortcutFilePath "$env:Public\Desktop\$Shortcut" -targetPath "$toolsDir\copy-dialog-lunar-lander\$ProgramEXE" -WorkingDirectory "$toolsDir"
