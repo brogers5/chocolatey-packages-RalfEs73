@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.msp360.com/CloudBerryBackup_v7.8.2.253DESKTOP.exe'
+$url        = 'https://download.msp360.com/CloudBerryBackup_v7.8.3.285DESKTOP.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
