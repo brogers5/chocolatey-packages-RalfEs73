@@ -1,6 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.chia.net/latest/Setup-Win64.exe'
+$url        = 'https://github.com/Chia-Network/chia-blockchain/releases/download/1.7.0/ChiaSetup-1.7.0.exe'
+# $url        = 'https://download.chia.net/latest/Setup-Win64.exe'
 $process	= "Chia"
 
 $packageArgs = @{
