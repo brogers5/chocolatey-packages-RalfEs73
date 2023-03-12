@@ -38,7 +38,6 @@ choco install <packetname>
 * [Exodus Wallet](https://chocolatey.org/packages/exoduswallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/exoduswallet?label=Version)
 * [Film Info! Organiser](https://chocolatey.org/packages/film-info-organizer/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/film-info-organizer?label=Version)
 * [Firo Wallet](https://chocolatey.org/packages/firowallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/firowallet?label=Version)
-* [Gamecaster](https://chocolatey.org/packages/gamecaster/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/gamecaster?label=Version)
 * [Hasleo Backup Suite](https://chocolatey.org/packages/hasleobackupsuite/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/hasleobackupsuite?label=Version)
 * [Ledger Live](https://chocolatey.org/packages/ledger-live/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/ledger-live?label=Version)
 * [Planet M.U.L.E.](https://chocolatey.org/packages/planetmule/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/planetmule?label=Version)
