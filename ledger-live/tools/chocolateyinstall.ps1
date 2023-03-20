@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://download.live.ledger.com/ledger-live-desktop-2.51.0-win-x64.exe'
+$url64      = 'https://download.live.ledger.com/ledger-live-desktop-2.55.0-win-x64.exe'
 
 
 $packageArgs = @{
@@ -9,7 +9,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url64bit      = $url64
   softwareName  = 'ledger-live*'
-  checksum64    = '257E0E31631273D01ACF9978015D324AC3EC59478B260D9ADA8AF5DB925D2B8A'
+  checksum64    = 'D723AB7A4D88AB15D65700AEF30B70FD4BAF66F07CE34E6B0D3004B465C51F2A'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
