@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.eposaudio.com/globalassets/_enterprise_media/software/epos-connect/7.5.0/win/eposconnect_7.5.0.39710.exe'
+$url        = 'https://www.eposaudio.com/globalassets/___image-library/_enterprise/files/english/epos-connect/epos-connect-7.6.0.40680/eposconnect_7.6.0.40680.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   softwareName  = 'epos-connect*'
-  checksum      = 'E0DA25ABFF9672DCD9C018A44E63C2D971317DE68B441180643C5D2F048557C8'
+  checksum      = '5E9F7ABBCD5B316AE7D36B2BCC523524B40DE7E36BF13BE7DF4C5B98927ECF3A'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
