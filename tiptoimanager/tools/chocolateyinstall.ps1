@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = $url
   
   softwareName  = 'tiptoimanager*'
-  checksum      = '9190AE58AB8315C1C2592948718811A334493489D1DE56121F7C40A399F1839E'
+  checksum      = '529E1B61DC60121FA0A72DD4CDDB4129F8DEF09ECBACE9F665BA2B5FB7953DC7'
   checksumType  = 'sha256'
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
