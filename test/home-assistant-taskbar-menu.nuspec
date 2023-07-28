@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>home-assistant-taskbar-menu</id>
+    <version>1.3.0.0</version>
+    <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/</packageSourceUrl>
+    <owners>RalfEs</owners>
+    <title>Home Assistant Taskbar Menu (Install)</title>
+    <authors>Piotr Machowski</authors>
+    <projectUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/test.png</iconUrl>
+    <projectSourceUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</projectSourceUrl>
+    <docsUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</docsUrl>
+    <bugTrackerUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu/issues</bugTrackerUrl>
+    <tags>homeassistant tool</tags>
+    <summary>This application is a simple Home Assistant client for Windows.</summary>
+    <description>This application is a simple Home Assistant client for Windows. It can control entities from supported domains, display Home Assistant web interface, create shortcuts to your favourite actions and mirror persistent notifications.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
