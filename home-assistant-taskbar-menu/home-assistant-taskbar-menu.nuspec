@@ -8,7 +8,7 @@
     <title>Home Assistant Taskbar Menu (Install)</title>
     <authors>Piotr Machowski</authors>
     <projectUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/test.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/RalfEs73/chocolatey-packages/17839d32edbdc1c99eb86adfcb6886b88c589176/home-assistant-taskbar-menu/icon/Icon.png</iconUrl>
     <projectSourceUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</projectSourceUrl>
     <docsUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu</docsUrl>
     <bugTrackerUrl>https://github.com/PiotrMachowski/Home-Assistant-Taskbar-Menu/issues</bugTrackerUrl>
