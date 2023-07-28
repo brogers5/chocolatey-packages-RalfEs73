@@ -39,6 +39,7 @@ choco install <packetname>
 * [Film Info! Organiser](https://chocolatey.org/packages/film-info-organizer/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/film-info-organizer?label=Version)
 * [Firo Wallet](https://chocolatey.org/packages/firowallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/firowallet?label=Version)
 * [Hasleo Backup Suite](https://chocolatey.org/packages/hasleobackupsuite/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/hasleobackupsuite?label=Version)
+* [Home Assistant Taskbar Menu](https://chocolatey.org/packages/home-assistant-taskbar-menu/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/home-assistant-taskbar-menu?label=Version)
 * [Ledger Live](https://chocolatey.org/packages/ledger-live/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/ledger-live?label=Version)
 * [Planet M.U.L.E.](https://chocolatey.org/packages/planetmule/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/planetmule?label=Version)
 * [Power Automate Desktop](https://chocolatey.org/packages/powerautomatedesktop/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/powerautomatedesktop?label=Version)
