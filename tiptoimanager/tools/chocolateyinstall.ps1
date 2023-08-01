@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe'
+$url        = 'https://cdn.ravensburger.de/db/Installer/tiptoi_Manager_Installer.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
