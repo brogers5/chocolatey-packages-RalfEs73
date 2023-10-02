@@ -10,7 +10,7 @@ $packageArgs = @{
   
   softwareName  = 'cloudberrybackup*'
 
-  checksum      = '3B86A865295E9E2E4DB33A25D3968DCE78BAC0F83BECA54B09763CEF551ADA82'
+  checksum      = '65270D515BFA4DF47634F593FA9E73AED1E9BA597966D19634D11C28F90E011C'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
