@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tiptoimanager</id>
-    <version>5.1.20230801</version>
+    <version>5.1.20231002</version>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/tiptoimanager</packageSourceUrl>
     <owners>RalfEs</owners>
     <title>Ravensburger tiptoi Manager (Install)</title>
