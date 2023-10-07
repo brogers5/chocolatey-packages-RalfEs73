@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chia-network</id>
-    <version>2.1.0</version>
+    <version>2.1.0.20231007</version>
     <packageSourceUrl>https://github.com/RalfEs73/chocolatey-packages/tree/master/chia-network</packageSourceUrl>
     <owners>RalfEs</owners>
 
