@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://www.redfox.bz/download/SetupAnyStream_1.6.8.0_32bit.exe'
-$url64      = 'https://www.redfox.bz/download/SetupAnyStream_1.6.8.0_64bit.exe'
+$url        = 'https://www.redfox.bz/download/SetupAnyStream_1.6.9.0_32bit.exe'
+$url64      = 'https://www.redfox.bz/download/SetupAnyStream_1.6.9.0_64bit.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,9 +11,9 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'anystream*'
-  checksum      = '25A5B1F4761E6DE28896D1A9ABAB397FC93EA22F9EF8510A69D2B2AD229F936C'
+  checksum      = '00C9000B99461F6F106760EFEDE7A74FBE16D1039E377109154A09FFC2B439EA'
   checksumType  = 'sha256'
-  checksum64    = 'C45A82B32FA6079E9589BB8CF62F2726FA2084CDF8B7828C9540E69FDDA659E1'
+  checksum64    = '9BF41B9B2020FB5C273A0085C844FDF867535E91AAFD7A14AC4B9A8C09DA7FF7'
   checksumType64= 'sha256'
   silentArgs   = '/S'
 }
