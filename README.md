@@ -35,7 +35,6 @@ choco install <packetname>
 * [DroidCam Client](https://chocolatey.org/packages/droidcamclient/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/droidcamclient?label=Version)
 * [Encrypto](https://chocolatey.org/packages/encrypto/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/encrypto?label=Version)
 * [EPOS Connect](https://community.chocolatey.org/packages/epos-connect/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/epos-connect?label=Version)
-* [Exodus Wallet](https://chocolatey.org/packages/exoduswallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/exoduswallet?label=Version)
 * [Film Info! Organiser](https://chocolatey.org/packages/film-info-organizer/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/film-info-organizer?label=Version)
 * [Firo Wallet](https://chocolatey.org/packages/firowallet/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/firowallet?label=Version)
 * [Hasleo Backup Suite](https://chocolatey.org/packages/hasleobackupsuite/) ![Chocolatey Version](https://img.shields.io/chocolatey/v/hasleobackupsuite?label=Version)
